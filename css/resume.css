@@ -1,7 +1,7 @@
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
-  color: #868e96;
+  color: #757575;
 }
 
 @media (min-width: 992px) {
@@ -20,7 +20,7 @@ h6 {
   font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: #343a40;
+  color: #212121;
 }
 
 h1 {
@@ -31,6 +31,7 @@ h1 {
 h2 {
   font-size: 3.5rem;
 }
+
 
 .subheading {
   text-transform: uppercase;
@@ -44,7 +45,7 @@ h2 {
 }
 
 .list-social-icons a:hover {
-  color: #004068;
+  color: #FFC107;
 }
 
 .list-social-icons a .fa-lg {
@@ -56,7 +57,7 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #004068;
+  color: #FFC107;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -105,9 +106,12 @@ h2 {
 }
 
 section.resume-section {
-  border-bottom: 1px solid #dee2e6;
+  border: 1px solid #BDBDBD;
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
+  margin: 10px !important;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgba(250,250,250,0.5)
 }
 
 section.resume-section .resume-item .resume-date {
@@ -131,29 +135,31 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #00695C !important;
+  background-color: #00796B !important;
 }
 
 .bg-img {
   background-image: url("../img/background.jpg");
   background-color: #f8f8f8;
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .text-primary {
-  color: #00695C !important;
+  color: #009688 !important;
 }
 
-.text-img {
-  color: #fff! important;
-  text-shadow: 1px 1px black;
+.mastfoot {
+  background-color: #B2DFDB;
+  text-align: center;
+  font-size: 0.5rem;
 }
 
 a {
-  color: #00695C;
+  color: #757575;
 }
 
 a:hover, a:focus, a:active {
-  color: #004068;
+  color: #FFC107;
 }
