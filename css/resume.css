@@ -1,7 +1,7 @@
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
-  color: #757575;
+  color: #455A64;
 }
 
 @media (min-width: 992px) {
@@ -41,7 +41,7 @@ h2 {
 }
 
 .list-social-icons a {
-  color: #495057;
+  color: #455A64;
 }
 
 .list-social-icons a:hover {
@@ -172,7 +172,7 @@ a:hover, a:focus, a:active {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgba(255,193,7,0.9);
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -215,8 +215,10 @@ a:hover, a:focus, a:active {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 22px;
   }
+
 .card {
   margin: 10px !important;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
-  background-color: rgba(250,250,250,0.5)
+  background-color: rgba(240,240,240,0.75);
+
 }
