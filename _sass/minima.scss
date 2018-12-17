@@ -1,14 +1,8 @@
 @charset "utf-8";
 
-// Colour Palette Defined variables for colours.
-$LightGreen: rgba(204, 245, 172, 1);
-$DarkGreen: rgba(186, 210, 159, 1);
-$LightBlue: rgba(128, 138, 159, 1);
-$Grey: rgba(83, 93, 102, 1);
-$Violet: rgba(61, 43, 86, 0.7);
 // Define defaults for each variable.
 
-$base-font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif !default;
+$base-font-family: 'Cabin', serif !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -16,13 +10,13 @@ $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       #111 !default;
-$background-color: #fdfdfd !default;
-$brand-color:      $LightBlue !default;
-$header-colour:    $DarkGreen;
-$footer-colour:    $Violet;
+$text-color:       #000000 !default;
+$background-color: #FFFFFF !default;
+$brand-color:      #808080 !default;
+$header-colour:    #899e8b;
+$footer-colour:    #706993;
 
-$grey-color:       $Grey !default;
+$grey-color:       #808080 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 

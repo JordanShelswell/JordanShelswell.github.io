@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: DriftWord
+author: Jordan Shelswell
 email: jordanshelswell@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A place where oddities share their opinions about existing in our crazy world.
@@ -27,6 +28,7 @@ baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://jordanshelswell.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ShelswellJordan
 github_username:  jordanshelswell
+linkedin_username: jordanshelswell
 
 # Build settings
 markdown: kramdown
