@@ -32,7 +32,8 @@ linkedin_username: jordanshelswell
 
 # Build settings
 markdown: kramdown
-whitelist: [jekyll-analytics]
+whitelist:
+  -jekyll-analytics
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
