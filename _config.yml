@@ -17,14 +17,14 @@ title: DriftWord
 author: Jordan Shelswell
 email: jordanshelswell@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A place where oddities share their opinions about existing in our crazy world.
   News, science, and society are all on the table,
   sprinkeled with day to day exploration of new topics and skills.
   Come join us as we drift through this wonderfully worded world.
+  Technology, the Environment and Language are frequent subjects of discussion.
 # Write an awesome description for your new site here. You can edit this
 # line in _config.yml. It will appear in your document head meta (for
 # Google search results) and in your feed.xml site description.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "/Driftword" # the subpath of your site, e.g. /blog
 url: "https://jordanshelswell.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ShelswellJordan
 github_username:  jordanshelswell
@@ -44,7 +44,13 @@ jekyll_analytics:
     id: UA-125898541-1         # Required - replace with your tracking id
     anonymizeIp: false    # Optional - Default: false - set to true for anonymized tracking
 
-image: /path/to/your/default/image.png
+image: /img/image.svg
+
+# Disqus Comments
+disqus:
+    # Leave shortname blank to disable comments site-wide.
+    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+    shortname: my_disqus_shortname
 
 
 # Exclude from processing.
