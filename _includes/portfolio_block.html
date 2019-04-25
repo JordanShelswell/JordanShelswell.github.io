@@ -1,0 +1,17 @@
+<!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div>
+            {%- assign sorted-posts = site.posts | where:"categories","portfolio" -%}
+            {%- for post in sorted-posts -%}
+                <div class="card">
+                    <a href="{{ post.url | relative_url }}" class="portfolio-link">
+                      <img src="img/portfolio/{{ post.thumbnail }}" class="" alt="">
+                    </a>
+                    <h4 class="project-tile">{{ post.title }}</h4>
+                    <p class="text-muted">{{ post.subtitle }}</p>
+                </div>
+            {%- endfor -%}
+            </div>
+        </div>
+    </section>
