@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 title: Blog
-layout: home
-permalink: "/blog/"
+layout: blog
+permalink: "/blog"
 
 ---
