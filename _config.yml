@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: DriftWord
+title: Jordan Shelswell
 author: Jordan Shelswell
 email: jordanshelswell@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  News, science, and society are all on the table,
-  sprinkeled with day to day exploration of new topics and skills.
-  Come join us as we drift through this wonderfully worded world.
-  Technology, the Environment and Language are frequent subjects of discussion.
+  Ecology, technology and more,
+  sprinkeled with my day to day exploration of new topics and skills.
+  If you would like to work together, feel free to reachout though any of
+  the channels here.
 # Write an awesome description for your new site here. You can edit this
 # line in _config.yml. It will appear in your document head meta (for
 # Google search results) and in your feed.xml site description.

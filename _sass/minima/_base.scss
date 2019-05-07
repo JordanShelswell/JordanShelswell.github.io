@@ -64,6 +64,11 @@ img {
 /**
  * Figures
  */
+figure {
+  border-radius: 25px;
+
+ }
+
 figure > img {
   display: block;
 }
@@ -103,15 +108,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: darken($brand-color, 15%);
+  color: $text-color;
   text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 25%);
+    color: darken($text-color, 10%);
   }
 
   &:hover {
-    color: $text-color;
+    color: $brand-color;
     text-decoration: underline;
   }
 
@@ -149,9 +154,10 @@ blockquote {
 pre,
 code {
   @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
-  border-radius: 3px;
-  background-color: #eef;
+  border: 1px solid #6aa595;
+  border-radius: 25px;
+  background-color: #363636;
+
 }
 
 code {

@@ -6,29 +6,17 @@ layout: default
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
+    {%- include welcome_banner.html -%}
 
   {{ content }}
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <h2 class="center-text" style="width:100%;">Take a look at some of the work I do.....</h2>
+        {%- include portfolio_block.html -%}
+      <p class="center-text">If you want to see more check out the blog section!</p>
+      <a class="button" style="width:100%;" href="/blog">Blog</a>
 
-  {%- if site.posts.size > 0-%}
-    <ul class="post-list">
-      {% assign sorted-posts = site.posts | where: "publish","y" %}
-      {%- for post in sorted-posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
-
+      <h2 class="center-text" style="width:100%;">If you want to work together....</h2>
+      <p class="center-text">you can find the means below.</p>
+    </div>
 </div>

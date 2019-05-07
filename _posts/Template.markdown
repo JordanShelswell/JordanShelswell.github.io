@@ -1,14 +1,17 @@
 ---
 layout: post
-title:  "A Land Ethic"
-date:   2018-11-29 21:45:48 -0500
-categories: environment
-publish: y
+title:  "This site!"
+date:   2019-01-01 21:45:48 -0500
+categories: portfolio
+thumbnail: default.png
+publish: n
 ---
-
+<!--Basicaly a Temple at the moment-->
 By: Jordan Shelswell
+# Reasons
+  I was contemplating practicing my writing and a draft of a essay like blog post seemed like a quick way to do that and what follows is a first attempt.
 
-# Where to Begin?
+# Title
   The focus of most environmental blogs even those adjacent to the top blogs are focused at least as far as I can see on the trend of "Green Lifestyles" and how you can make small choices everyday to help protect the environment. These articles are just generally lacking in considerations pertaining to institutions and society as a whole. While I was looking at these articles I could not help but think that:
 
   >A thing is right when it tends to preserve the integrity, stability and beauty of the biotic community. It is wrong when it tends otherwise. -Aldo Leapold
@@ -22,3 +25,6 @@ By: Jordan Shelswell
   It is tied up in fiscal and imaginary economic concerns. We have placed companies in situations where they are only deemed successful if they produce ever climbing profit margins and returns to their investors. In order to fully address these issues we need to concern ourselves with institutional motivations and hold our institutions to the same standards we hold ourselves.
 
   This and subjects like it will be explored here. So if you are interested I would like to invite you to come back maybe even bookmark or link to this site. If my schedule untangles itself soon, there hopefully will be new content when you drift back this way.
+
+# Thoughts
+  This is space reserved for an analysis of a project. Reflection, improvements plans and further context.

@@ -5,6 +5,7 @@
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-dark;
   min-height: $spacing-unit * 1.865;
+  max-height: $spacing-unit * 2.25;
   // Positioning context for the mobile navigation icon
   //position: relative;
   background: $header-colour;
@@ -12,6 +13,7 @@
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  z-index: 10;
 }
 
 .site-title {
@@ -22,6 +24,11 @@
   margin-bottom: 0;
   float: left;
   color: $text-color !important;
+  img{
+    height: $base-line-height * $base-font-size * 2.25;
+    width: $base-line-height * $base-font-size * 2.25;
+    object-fit: contain;
+  }
 
 
   &,
@@ -42,8 +49,8 @@
     display: none;
   }
 
-// Former .page-link merged with newly created button
-    .button {
+// Former .page-link merged with a button like styling
+    .page-link {
       background: $header-colour;
       border-radius: 6px;
       border: 5px;
@@ -67,7 +74,6 @@
   }
 
 
-
   @include media-query($on-palm) {
     position: absolute;
     top: 9px;
@@ -85,6 +91,7 @@
       z-index: 2;
       cursor: pointer;
     }
+
 
     .menu-icon {
       display: block;
@@ -122,6 +129,49 @@
   }
 }
 
+.banner {
+  top: 0;
+  background-color:black;
+  background-image:
+  radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+  radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+  radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+  radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  min-height: 35vh;
+  padding-top: 25vh;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.center-text{
+  text-align: center;
+}
+
+// Former .page-link merged with a button like styling to make new element
+    .button {
+      background: $header-colour;
+      border-radius: 6px;
+      border: 5px;
+      color: $text-color;
+      padding: 10px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      line-height: $base-line-height;
+      margin: 4px 2px;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      cursor: pointer;
+
+      &:not(:last-child) {
+        margin-right: 20px;
+    }
+      &:hover {
+        background: $header-colour;
+    }
+  }
 
 
 /**
@@ -279,3 +329,49 @@
     }
   }
 }
+
+#projects{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 15px;
+	padding: 1.5%;
+	box-sizing: border-box;
+}
+
+.card {
+  	position: relative;
+  	margin: 20px;
+  	background: $header-colour;
+  	color: #363636; //the whole content of the card becomes linked
+  	text-decoration: none;
+  	display: block;
+    max-width: 40%;
+  	}
+  	.card-header {
+  		position: relative;
+  		min-height: 175px;
+  		overflow: hidden;
+  		background-repeat: no-repeat;
+  		background-size: cover;
+  		background-position: center;
+  		background-color: rgba(white,.15);
+   		background-blend-mode: overlay;
+  		&:hover, &:focus {
+  			background-color: rgba(white, 0);
+  		}
+  	.card-title {
+  		background: rgba(157, 187, 63, .85);
+  		padding: 3.5% 0 2.5% 0;
+  		color: white;
+  		position: absolute;
+  		bottom: 0;
+  		width: 100%;
+  	}
+  	&:hover, &:focus {
+  		background: white;
+  		.card-title {
+  			background: rgba(157, 187, 63, .95);
+  		}
+  	}
+  }

@@ -1,13 +1,14 @@
 ---
 layout: post
-title:  "Euler Project 1"
+title:  "Euler Project: 1"
 date:   2019-03-22 00:00:00 -0500
-categories: python math programming
-publish: n
+categories: python math programming portfolio
+thumbnail: Euler_1.png
+publish: y
 ---
 <!--Needs editing and final result added before release-->
 As of late I have been expanding my mathematics skills and been familiarizing myself with several programming languages. While doing so I encountered a site that is called Project Euler. The site is a collection of mathematical, logic and computational puzzles that seek to challenge people with progressively harder questions. I thought I might try my hand at these problems and share my experiences with them. I am by no means a mathematician or computer scientist.
-With that in mind, you can find the problem here: https://projecteuler.net/problem=1, if you would like to check out the source and maybe try a few of the problems yourself.
+With that in mind, you can find the problem here: [Project Euler #1][project-euler], if you would like to check out the source and maybe try a few of the problems yourself.
 
 # Euler Problem 1: Multiples of 3 and 5
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
@@ -69,3 +70,5 @@ Although this was a simpler problem I found the application and use of Python la
 In the future:
 	The project could be modified to take into account user inputs and expand functionality to include other multiples.
 	The code could also be rewritten to utilize a more mathematically clever and efficient way of computing this.
+
+[project-euler]: https://projecteuler.net/problem=1
