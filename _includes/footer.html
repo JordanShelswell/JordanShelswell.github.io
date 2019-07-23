@@ -1,14 +1,11 @@
-<footer class="site-footer h-card" id="contact">
+<footer class="w3-container w3-teal w3-center w3-margin-top" id="contact">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
+    <h2 class="">{{ site.title | escape }}</h2>
+    <div class="">
+      <div class="">
+        <ul class="">
+          <li class="">
             {%- if site.author -%}
               {{ site.author | escape }}
             {%- else -%}
@@ -16,20 +13,47 @@
             {%- endif -%}
             </li>
             {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            <li><a class="" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
+            <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
         </ul>
       </div>
 
-      <div class="footer-col footer-col-2">
+      <div class="">
+        <p>Find me on social media.</p>
         {%- include social.html -%}
       </div>
 
-      <div class="footer-col footer-col-3">
+      <div class="">
         <p>{{- site.description | escape -}}</p>
       </div>
     </div>
 
-  </div>
+    <script>
+    // Modal Image Gallery
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+      var captionText = document.getElementById("caption");
+      captionText.innerHTML = element.alt;
+    }
+
+
+    // Toggle between showing and hiding the sidebar when clicking the menu icon
+    var mySidebar = document.getElementById("mySidebar");
+
+    function w3_open() {
+      if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+      } else {
+        mySidebar.style.display = 'block';
+      }
+    }
+
+    // Close the sidebar with the close button
+    function w3_close() {
+        mySidebar.style.display = "none";
+    }
+    </script>
 
 </footer>

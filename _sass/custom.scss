@@ -12,7 +12,7 @@ $spacing-unit:     30px !default;
 
 //Import Colours
 @import
-  "minima/stormy";
+  "custom/stormy";
 
 $grey-color:       #888888 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
@@ -44,8 +44,10 @@ $on-laptop:        800px !default;
 }
 
 // Import partials.
+@import "https://www.w3schools.com/w3css/4/w3.css"
+;
 @import
-  "minima/base",
-  "minima/layout",
-  "minima/syntax-highlighting"
+  "custom/base",
+  "custom/layout",
+  "custom/syntax-highlighting"
 ;
