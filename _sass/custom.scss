@@ -1,53 +1,63 @@
 @charset "utf-8";
 
-// Define defaults for each variable.
-
-$base-font-family: 'Cabin', serif !default;
-$base-font-size:   16px !default;
-$base-font-weight: 400 !default;
-$small-font-size:  $base-font-size * 0.875 !default;
-$base-line-height: 1.5 !default;
-
-$spacing-unit:     30px !default;
-
 //Import Colours
-@import
-  "custom/stormy";
+@import "custom/material";
 
-$grey-color:       #888888 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 35%) !default;
+/**
+ * Basic styling
+ */
+ body, html, h1, h2, h3, h4, h5, h6 {
+   color: $primarytext-colour;
+  font-family: 'Cabin', sans-serif;
+}
 
-$table-text-align: left !default;
+body {
+  background-color: $text-colour;
+}
 
-// Width of the content area
-$content-width:    800px !default;
+main{
+  min-height: 85vh;
+}
 
-$on-palm:          600px !default;
-$on-laptop:        800px !default;
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//   .wrapper {
-//     padding-right: $spacing-unit / 2;
-//     padding-left: $spacing-unit / 2;
-//   }
-// }
-@mixin media-query($device) {
-  @media screen and (max-width: $device) {
-    @content;
+.header-colour {
+  background-color: $darkprimary-colour;
+  color: $secondarytext-colour;
   }
+
+.footer-colour {
+    background-color: $darkprimary-colour;
+    color: $secondarytext-colour;
+    }
+
+.background-brand{
+  background-color: $accent-colour;
 }
 
-@mixin relative-font-size($ratio) {
-  font-size: $base-font-size * $ratio;
+.text-brand{
+  color: $darkprimary-colour;
 }
 
-// Import partials.
-@import "https://www.w3schools.com/w3css/4/w3.css"
-;
-@import
-  "custom/base",
-  "custom/layout",
-  "custom/syntax-highlighting"
-;
+.text-special{
+  font-family: 'Cabin Sketch', cursive;
+}
+
+.fa {
+  color: $secondarytext-colour;
+}
+
+.pic-author{
+  border:10px solid;
+}
+
+.welcome-section {
+  background-color: $primary-colour;
+  background-image: linear-gradient(45deg, transparent 20%, black 25%, transparent 25%),
+                    linear-gradient(-45deg, transparent 20%, black 25%, transparent 25%),
+                    linear-gradient(-45deg, transparent 75%, black 80%, transparent 0),
+                    radial-gradient(gray 2px, transparent 0);
+  background-size: 30px 30px, 30px 30px;
+  color: $secondarytext-colour;
+  font-family: 'Cabin Sketch', cursive;
+  height:80vh;
+  min-height:400px;
+}
