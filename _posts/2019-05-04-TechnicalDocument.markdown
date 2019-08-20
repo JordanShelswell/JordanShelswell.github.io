@@ -5,6 +5,7 @@ date:   2019-01-01 21:45:48 -0500
 categories: portfolio HTML CSS web
 thumbnail: Technical_Doc.png
 publish: y
+excerpt: I was looking for projects to practice web development languages and discovered freeCodeCamp.org. freeCodeCamp.org is a small non-profit organization that helps people learn to code. Their site ha a complete free programming course that shows you syntax in a logical and engaging way and then has you build projects from the ground up or forked from another project.
 ---
 <!--Basicaly a Temple at the moment-->
 By: Jordan Shelswell
