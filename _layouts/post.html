@@ -10,13 +10,14 @@ layout: default
         </time>
       </p>
 
-        <div class="w3-container">
+        <section class="w3-container">
           {{ content }}
-        </div>
-
+        </section>
+    <section>
     {%- if site.disqus.shortname -%}
       {%- include disqus_comments.html -%}
     {%- endif -%}
+    </section>
 
     <a class="w3-ul" href="{{ page.url | relative_url }}" hidden></a>
   </article>

@@ -1,17 +1,17 @@
 <footer class="w3-container footer-colour w3-margin-top">
   <div class="w3-container w3-quarter">
-    <p class="w3-large text-special">{{ site.title | escape }}</p>
+    <h2 class="w3-large text-special text-light">{{ site.title | escape }}</h2>
     <p class="w3-medium">{%- if site.email -%} <a href="mailto:{{ site.email }}">{{ site.email }}</a> {%- endif -%}</p>
     <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
   </div>
 
   <div class="w3-container w3-quarter">
-    <p class="w3-medium">Find me on social media.</p>
+    <h3 class="w3-medium text-light">Find me on social media.</h3>
     {%- include social.html -%}
   </div>
 
   <div class="w3-container w3-rest">
-    <p class="w3-large">{{- site.description | escape -}}</p>
+    <h3 class="w3-large text-light">{{- site.description | escape -}}</h3>
   </div>
 
   <script src="/assets/sidebar.js"> </script>

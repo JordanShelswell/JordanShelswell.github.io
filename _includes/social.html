@@ -1,3 +1,4 @@
+<section>
   {%- if site.facebook_username -%}<p class="w3-medium"><a href="https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}" target="_blank"><i class="fa fa-facebook-official"></i> {{ site.facebook_username| escape }}</a></p>{%- endif -%}
 
   {%- if site.flickr_username -%}<p class="w3-medium"><a href="https://www.flickr.com/photos/{{ site.flickr_username| cgi_escape | escape }}" target="_blank"><i class="fa fa-flickr"></i> {{ site.flickr_username| escape }}</a></p>{%- endif -%}
@@ -11,3 +12,4 @@
   {%- if site.youtube_username -%}<p class="w3-medium"><a href="https://youtube.com/{{ site.youtube_username| cgi_escape | escape }}" target="_blank"><i class="fa fa-youtube"></i> {{ site.youtube_username| escape }}</a></p>{%- endif -%}
 
   {%- if site.rss -%}<p class="w3-medium"><a href="{{ 'feed.xml' | relative_url }}"><i class="fa"></i> {{ site.rss | escape }}</a>{%- endif -%}
+</section>

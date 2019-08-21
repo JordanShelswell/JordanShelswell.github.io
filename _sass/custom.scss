@@ -3,11 +3,8 @@
 //Import Colours
 @import "custom/material";
 
-/**
- * Basic styling
- */
  body, html, h1, h2, h3, h4, h5, h6 {
-   color: $primarytext-colour;
+  color: $primarytext-colour;
   font-family: 'Cabin', sans-serif;
 }
 
@@ -19,9 +16,13 @@ main{
   min-height: 85vh;
 }
 
+.fa {
+  color: $secondarytext-colour;
+}
+
 .header-colour {
   background-color: $darkprimary-colour;
-  color: $secondarytext-colour;
+  color: $secondarytext-colour !important;
   }
 
 .footer-colour {
@@ -32,17 +33,16 @@ main{
 .background-brand{
   background-color: $accent-colour;
 }
+.text-light{
+  color: $secondarytext-colour;
+}
 
 .text-brand{
   color: $darkprimary-colour;
 }
 
 .text-special{
-  font-family: 'Cabin Sketch', cursive;
-}
-
-.fa {
-  color: $secondarytext-colour;
+  font-family: 'Cabin Sketch', cursive !important;
 }
 
 .pic-author{
@@ -57,7 +57,6 @@ main{
                     radial-gradient(gray 2px, transparent 0);
   background-size: 30px 30px, 30px 30px;
   color: $secondarytext-colour;
-  font-family: 'Cabin Sketch', cursive;
   height:80vh;
   min-height:400px;
 }
