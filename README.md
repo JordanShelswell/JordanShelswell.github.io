@@ -9,7 +9,7 @@ entrant into the world of coding.
 
 These instructions will get you a copy of the project up and running on your
 local machine for development and testing purposes and includes links to further
- documentation.
+documentation.
 
 ### Prerequisites
 
@@ -42,7 +42,9 @@ If you have any questions the documentation is very thorough and has helped imme
 * [Font Awesome](https://fontawesome.com/) -Some nice Icons
 * [Google Fonts](https://fonts.google.com/) - Source for some nice web fonts
 * [Google Analytics](https://analytics.google.com/analytics/web/) - Pageview tracker
-* [Minima](https://github.com/jekyll/minima) - Was utilized as a base theme that was then customized for this site. It was distributed under an MIT license that has since been adopted  for the entire project.
+
+# Previously used:
+* [Minima](https://github.com/jekyll/minima) - Was utilized as a base theme that was then customized for this site. It was distributed under an MIT license that has since been adopted for the project.
 
 ## Contributing
 
