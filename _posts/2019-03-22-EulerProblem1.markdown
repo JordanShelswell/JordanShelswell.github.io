@@ -5,16 +5,18 @@ date:   2019-03-22 00:00:00 -0500
 categories: python math programming portfolio
 thumbnail: Euler_1.png
 publish: y
+excerpt: As of late I have been expanding my mathematics skills and been familiarizing myself with several programming languages. While doing so I encountered a site that is called Project Euler. The site is a collection of mathematical, logic and computational puzzles that seek to challenge people with progressively harder questions. I thought I might try my hand at these problems and share my experiences with them. I am by no means a mathematician or computer scientist.
 ---
+#### {{page.title}}
 <!--Needs editing and final result added before release-->
 As of late I have been expanding my mathematics skills and been familiarizing myself with several programming languages. While doing so I encountered a site that is called Project Euler. The site is a collection of mathematical, logic and computational puzzles that seek to challenge people with progressively harder questions. I thought I might try my hand at these problems and share my experiences with them. I am by no means a mathematician or computer scientist.
 With that in mind, you can find the problem here: [Project Euler #1][project-euler], if you would like to check out the source and maybe try a few of the problems yourself.
 
-# Euler Problem 1: Multiples of 3 and 5
+#### Euler Problem 1: Multiples of 3 and 5
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 Find the sum of all the multiples of 3 or 5 below 1000.
 
-# My breakdown
+#### My breakdown
 I started this project by breaking it down into the following steps:
 1. Create objects to hold the two sets of numbers.
 2. Populate the objects with their respective sets.
@@ -23,12 +25,12 @@ I started this project by breaking it down into the following steps:
 This breakdown aligned quite well with what I ended up needing to implement in python.
 
 You can take a look at what my code ended up looking like below:
-{% highlight python %}
-	# If we list all the natural numbers below 10 that are multiples of 3 or 5, we
-	# get 3, 5, 6 and 9.
-	# The sum of these multiples is 23.
-	# Find the sum of all the multiples of 3 or 5 below 1000.
+	If we list all the natural numbers below 10 that are multiples of 3 or 5, we
+	get 3, 5, 6 and 9.
+	The sum of these multiples is 23.
+	Find the sum of all the multiples of 3 or 5 below 1000.
 
+<div class="w3-code">
 	# Defining Initial Loop Variables
 	Mul3 = [0]
 	Mul5 = [0]
@@ -52,7 +54,7 @@ You can take a look at what my code ended up looking like below:
 
 	# Prints Result
 	print(mySum)
-{% endhighlight %}
+</div>
 
 As you can see, I created the variable objects as arrays to hold the two sets of multiples.
 
@@ -64,7 +66,7 @@ I then tried figuring out a modification to the loop structure or some other met
 The answer ended up being __________
 
 
-# Thoughts
+#### Thoughts
 Although this was a simpler problem I found the application and use of Python language and syntax a nice entry project to practice the basics I have been working on as of late.
 
 In the future:

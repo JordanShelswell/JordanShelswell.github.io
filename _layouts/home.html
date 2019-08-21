@@ -1,22 +1,23 @@
 ---
 layout: default
 ---
+{%- include welcome_banner.html -%}
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-    {%- include welcome_banner.html -%}
-
+<div class="w3-container">
   {{ content }}
-  <main class="page-content" aria-label="Content">
-    <div class="wrapper">
-      <h2 class="center-text" style="width:100%;">Take a look at some of the work I do.....</h2>
-        {%- include portfolio_block.html -%}
-      <p class="center-text">If you want to see more check out the blog section!</p>
-      <a class="button" style="width:100%;" href="/blog">Blog</a>
+</div>
 
-      <h2 class="center-text" style="width:100%;">If you want to work together....</h2>
-      <p class="center-text">you can find the means below.</p>
+<div class="w3-container">
+    <div class="w3-display-container w3-center w3-xlarge">
+      <h2 class="">Take a look at some of the work I do.....</h2>
+    </div>
+
+      {%- include portfolio_block.html -%}
+
+    <div class="w3-display-container w3-center w3-xlarge">
+      <p>If you want to see more check out the blog section!</p>
+      <a class="w3-button w3-block background-brand w3-round-xxlarge text-light w3-card" href="/blog">Blog</a>
+      <p>If you want to work together....</p>
+      <p>you can find the means below.</p>
     </div>
 </div>

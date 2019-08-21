@@ -1,35 +1,19 @@
-<footer class="site-footer h-card" id="contact">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
-    </div>
-
+<footer class="w3-container footer-colour w3-margin-top">
+  <div class="w3-container w3-quarter">
+    <h2 class="w3-large text-special text-light">{{ site.title | escape }}</h2>
+    <p class="w3-medium">{%- if site.email -%} <a href="mailto:{{ site.email }}">{{ site.email }}</a> {%- endif -%}</p>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
   </div>
+
+  <div class="w3-container w3-quarter">
+    <h3 class="w3-medium text-light">Find me on social media.</h3>
+    {%- include social.html -%}
+  </div>
+
+  <div class="w3-container w3-rest">
+    <h3 class="w3-large text-light">{{- site.description | escape -}}</h3>
+  </div>
+
+  <script src="/assets/sidebar.js"> </script>
 
 </footer>

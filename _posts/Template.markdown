@@ -4,7 +4,7 @@ title:  "This site!"
 date:   2019-01-01 21:45:48 -0500
 categories: portfolio
 thumbnail: default.png
-publish: n
+publish: y
 ---
 <!--Basicaly a Temple at the moment-->
 By: Jordan Shelswell

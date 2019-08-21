@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+//Import Colours
+@import "custom/material";
+
+ body, html, h1, h2, h3, h4, h5, h6 {
+  color: $primarytext-colour;
+  font-family: 'Cabin', sans-serif;
+}
+
+body {
+  background-color: $text-colour;
+}
+
+main{
+  min-height: 85vh;
+}
+
+.fa {
+  color: $secondarytext-colour;
+}
+
+.header-colour {
+  background-color: $darkprimary-colour;
+  color: $secondarytext-colour !important;
+  }
+
+.footer-colour {
+    background-color: $darkprimary-colour;
+    color: $secondarytext-colour;
+    }
+
+.background-brand{
+  background-color: $accent-colour;
+}
+.text-light{
+  color: $secondarytext-colour;
+}
+
+.text-brand{
+  color: $darkprimary-colour;
+}
+
+.text-special{
+  font-family: 'Cabin Sketch', cursive !important;
+}
+
+.pic-author{
+  border:10px solid;
+}
+
+.welcome-section {
+  background-color: $primary-colour;
+  background-size: 30px 30px, 30px 30px;
+  color: $secondarytext-colour;
+  height:80vh;
+  min-height:400px;
+}
