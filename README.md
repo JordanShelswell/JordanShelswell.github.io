@@ -1,4 +1,4 @@
-# Project Title
+# A Personal Website
 
 This project is a personal web page that was created as a programming and
 development exercise that incorporates web design, HTML, CSS, git, Ruby,
